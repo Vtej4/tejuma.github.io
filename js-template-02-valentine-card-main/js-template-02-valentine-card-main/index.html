@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Project | Valentine Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("C:\Users\dell\Downloads\js-template-02-valentine-card-main\js-template-02-valentine-card-main\abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+        }
+
+        .valentines {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            color: #ff69b4;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 10px; /* Space between buttons */
+        }
+
+        .button:hover {
+            background-color: #ff1493;
+        }
+
+        .button-sky-blue {
+            background-color: #87ceeb;
+            color: #333;
+        }
+
+        .button-sky-blue:hover {
+            background-color: #00bfff;
+        }
+
+        .button-container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .button-container-bottom {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope"></div>
+
+            <div class="front"></div>
+
+            <div class="card">
+                <div class="text">
+                    Happy 
+                    5th year lovely
+                    Day! Chubby
+                </div>
+                <div class="heart"></div>
+            </div>
+
+            <div class="hearts">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="four"></div>
+                <div class="five"></div>
+            </div>
+        </div>
+    </div>
+    <div class="shadow"></div>
+
+
+
+    <div class="button-container-bottom">
+        <a href="next.html" class="button button-sky-blue">Click Here Chubby</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
